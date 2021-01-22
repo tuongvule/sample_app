@@ -1,0 +1,26 @@
+vi:
+  base_title: "Ứng dụng mẫu Hướng dẫn Ruby trên Rails."
+  pages:
+    application:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      sample_app: "Ứng Dụng Mẫu"
+    home:
+      home_title: "Trang chủ"
+      welcome_to_the_sample_app: "Chào mừng đến với Ứng dụng Mẫu"
+      sign_up_now: "Đăng kí ngay!"
+      ruby_on_rails_tutorial: "Hướng dẫn Ruby on Rails"
+      this_is_the_home_page: "Đây là trang chủ của: %{link} Ứng dụng Mẫu"
+    help:
+      help_title: "Trợ giúp"
+      help1: "Trợ giúp"
+      intro_of_help1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại trang %{href}"
+      intro_of_help2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{href}"
+      rails_tutorial_help_page: "Hướng dẫn Ruby trên Rails"
+      ruby_on_rails_tutorial: "Trợ giúp Ruby trên Rails"
+      link_path1: "http://www.railstutorial.org/help"
+      link_path2: "http://www.railstutorial.org/book"
