@@ -3,6 +3,7 @@ en:
   error_find_user: "Not found user."
   welcome_to_the_sample_app: "Welcom to the Sample app."
   the_form_contains: "The Form Contains %{count} error(s)."
+  error_find_user: "Not found user"
   pages:
     application:
       english: "English"
@@ -12,6 +13,9 @@ en:
       help: "Help"
       login: "Login in"
       sample_app: "Sample App"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     home:
       home_title: "Home"
       welcome_to_the_sample_app: "Welcome to the Sample App"
@@ -27,7 +31,20 @@ en:
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
-
+  sessions:
+    new:
+      login_title: "Log in"
+      login: "Log in"
+      new_user: "New User"
+      sign_up_now: "Sign up now!"
+      login: "Login"
+      email: "Email"
+      password: "Password"
+      invalid_email_password_combination: "Invalid Email Or Password."
+    create:
+      create: "Create"
+    destroy:
+      destroy: "Destroy"
   users:
     new:
       sign_up_title: "Sign up"
@@ -43,4 +60,3 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirmation"
-

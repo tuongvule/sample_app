@@ -1,9 +1,9 @@
 class SessionsController < ApplicationController
   before_action :load_user, only: create
+
   def new; end
 
   def create
-    load_user
     if @user.try(:authenticate, params[:session][:password])
       log_in @user
       params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
@@ -16,12 +16,16 @@ class SessionsController < ApplicationController
 
   def destroy
     log_out
-    redirect_to root_url
+    redirect_to root_path
   end
 
   private
 
   def load_user
     @user = User.find_by email: params[:session][:email].downcase
+    return if @user
+
+    flash[:danger] = t "error_find_user"
+    redirect_to root_path
   end
 end
