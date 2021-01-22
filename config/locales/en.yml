@@ -1,0 +1,29 @@
+en:
+  base_title: "Ruby on Rails Tutorial Sample App"
+  pages:
+    application:
+      english: "English"
+      vietnamese: "Vietnamese"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login in"
+      sample_app: "Sample App"
+    home:
+      home_title: "Home"
+      welcome_to_the_sample_app: "Welcome to the Sample App"
+      sign_up_now: "Sign up now!"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      this_is_the_home_page: "This is the home page for %{link} sample application."
+    help:
+      help_title: "Help"
+      help1: "Help"
+      intro_of_help1: "Get help on the Ruby on Rails Tutorial at the %{href}"
+      intro_of_help2: "To get help on this sample app, see the %{href}"
+      rails_tutorial_help_page: "Rails Tutorial help page"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      link_path1: "http://www.railstutorial.org/help"
+      link_path2: "http://www.railstutorial.org/book"
+
+
+
