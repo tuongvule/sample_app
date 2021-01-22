@@ -1,6 +1,8 @@
 vi:
   base_title: "Ứng dụng mẫu Hướng dẫn Ruby trên Rails."
   error_find_user: "Không tìm thấy user."
+  welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
+  the_form_contains: "Mẫu đăng kí có %{count} lỗi."
   pages:
     application:
       english: "Tiếng Anh"
@@ -25,3 +27,19 @@ vi:
       ruby_on_rails_tutorial: "Trợ giúp Ruby trên Rails"
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
+
+  users:
+    new:
+      sign_up_title: "Đăng ký"
+      sign_up: "Đăng ký"
+      create_my_account: "Tạo tài khoản"
+
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận lại"

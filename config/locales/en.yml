@@ -1,6 +1,8 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
   error_find_user: "Not found user."
+  welcome_to_the_sample_app: "Welcom to the Sample app."
+  the_form_contains: "The Form Contains %{count} error(s)."
   pages:
     application:
       english: "English"
@@ -26,5 +28,19 @@ en:
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
 
+  users:
+    new:
+      sign_up_title: "Sign up"
+      sign_up: "Sign up"
+      create_my_account: "Create My Account"
 
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
 
