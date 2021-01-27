@@ -5,5 +5,5 @@
     <%= t("pages.home.this_is_the_home_page", link: link_to(t("pages.home.ruby_on_rails_tutorial"),
     "http://www.railstutorial.org/")).html_safe %>
   </h2>
-  <%= link_to t("pages.home.sign_up_now"), "", class: "btn btn-lg btn-primary" %>
+  <%= link_to t("pages.home.sign_up_now"), new_user_path , class: "btn btn-lg btn-primary" %>
 </div>
