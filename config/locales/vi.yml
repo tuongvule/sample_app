@@ -4,6 +4,9 @@ vi:
   welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
   the_form_contains: "Mẫu đăng kí có %{count} lỗi."
   error_find_user: "Không tìm thấy người dùng."
+  welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
+  the_form_contains: "Mẫu đăng kí có %{count} lỗi."
+
   pages:
     application:
       english: "Tiếng Anh"
@@ -31,6 +34,7 @@ vi:
       ruby_on_rails_tutorial: "Trợ giúp Ruby trên Rails"
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
+
   sessions:
     new:
       login_title: "Đăng nhập"
@@ -41,10 +45,14 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       invalid_email_password_combination: "Thư điện tử hoặc mật khẩu bị sai."
+
     create:
       create: "Tạo tài khoản"
+      find_me_in: "Tìm tôi tại app/views/sessions/create.html.erb"
     destroy:
       destroy: "Xóa tài khoản"
+      remember_me: "Ghi nhớ đăng nhập."
+
   users:
     new:
       sign_up_title: "Đăng ký"
@@ -57,7 +65,7 @@ vi:
     attributes:
       user:
         name: "Tên"
-        email: "Email"
+        email: "Thư điện tử"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận lại"
     models:

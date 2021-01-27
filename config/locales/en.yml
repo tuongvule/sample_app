@@ -4,6 +4,9 @@ en:
   welcome_to_the_sample_app: "Welcom to the Sample app."
   the_form_contains: "The Form Contains %{count} error(s)."
   error_find_user: "Not found user"
+  welcome_to_the_sample_app: "Welcom to the Sample app."
+  the_form_contains: "The Form Contains %{count} error(s)."
+
   pages:
     application:
       english: "English"
@@ -31,6 +34,7 @@ en:
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
+
   sessions:
     new:
       login_title: "Log in"
@@ -41,10 +45,14 @@ en:
       email: "Email"
       password: "Password"
       invalid_email_password_combination: "Invalid Email Or Password."
+
     create:
       create: "Create"
+      find_me_in: "Find me in app/views/sessions/create.html.erb"
     destroy:
       destroy: "Destroy"
+      remember_me: "Remember me on this computer"
+
   users:
     new:
       sign_up_title: "Sign up"
