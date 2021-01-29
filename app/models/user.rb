@@ -11,6 +11,8 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  scope :order_by_name, ->{order :name}
+
   def self.new_token
     SecureRandom.urlsafe_base64
   end
@@ -37,6 +39,15 @@ class User < ApplicationRecord
   # Forgets a user.
   def forget
     update_column :remember_digest, nil
+  end
+
+  # Before filters
+  # Confirms a logged-in user.
+  def logged_in_user
+    return if logged_in?
+
+    flash[:danger] = t ".please_login_in"
+    redirect_to login_url
   end
 
   private

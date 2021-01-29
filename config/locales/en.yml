@@ -3,14 +3,16 @@ en:
   error_find_user: "Not found user."
   welcome_to_the_sample_app: "Welcom to the Sample app."
   the_form_contains: "The Form Contains %{count} error(s)."
-  error_find_user: "Not found user"
-  welcome_to_the_sample_app: "Welcom to the Sample app."
-  the_form_contains: "The Form Contains %{count} error(s)."
-
+  profile_updated: "Profile updated"
+  please_log_in: "Please log in."
+  user_deleted: "User deleted"
+  delete_fail: "Deleted fail!"
+  update_failed_please_re_enter: "Update failed, please re-enter!"
+  new_creation_failed_please_re_enter: "New creation failed, please re-enter!"
   pages:
     application:
       english: "English"
-      vietnamese: "Vietnamese"
+      vietnamese: "Tiếng Việt"
     header:
       home: "Home"
       help: "Help"
@@ -19,6 +21,7 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
+      users: "Users"
     home:
       home_title: "Home"
       welcome_to_the_sample_app: "Welcome to the Sample App"
@@ -45,7 +48,6 @@ en:
       email: "Email"
       password: "Password"
       invalid_email_password_combination: "Invalid Email Or Password."
-
     create:
       create: "Create"
       find_me_in: "Find me in app/views/sessions/create.html.erb"
@@ -58,6 +60,16 @@ en:
       sign_up_title: "Sign up"
       sign_up: "Sign up"
       create_my_account: "Create My Account"
+    edit:
+      edit_user_title: "Edit User"
+      update_your_profile: "Update Your Profile"
+      save_change: "Save changes"
+      change: "Change"
+    index:
+      all_users: "All Users"
+    user:
+      delete: "Delete"
+      are_you_sure: "Are you sure?"
 
   activerecord:
     models:
@@ -68,3 +80,10 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirmation"
+
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"

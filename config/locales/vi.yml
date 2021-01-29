@@ -4,12 +4,15 @@ vi:
   welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
   the_form_contains: "Mẫu đăng kí có %{count} lỗi."
   error_find_user: "Không tìm thấy người dùng."
-  welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
-  the_form_contains: "Mẫu đăng kí có %{count} lỗi."
-
+  profile_updated: "Thông tin của bạn đã được cập nhật."
+  please_log_in: "Vui lòng đăng nhập."
+  user_deleted: "Người dùng đã bị xóa"
+  delete_fail: "Hoạt động xóa thất bại!"
+  update_failed_please_re_enter: "Cập nhật thất bại, vui lòng nhập lại!"
+  new_creation_failed_please_re_enter: "Tạo mới thất bại, vui lòng nhập lại!"
   pages:
     application:
-      english: "Tiếng Anh"
+      english: "English"
       vietnamese: "Tiếng Việt"
     header:
       home: "Trang chủ"
@@ -19,6 +22,7 @@ vi:
       profile: "Hồ sơ"
       settings: "Cài đặt"
       logout: "Đăng xuất"
+      users: "Danh sách người dùng"
     home:
       home_title: "Trang chủ"
       welcome_to_the_sample_app: "Chào mừng đến với Ứng dụng Mẫu"
@@ -45,7 +49,6 @@ vi:
       email: "Thư điện tử"
       password: "Mật khẩu"
       invalid_email_password_combination: "Thư điện tử hoặc mật khẩu bị sai."
-
     create:
       create: "Tạo tài khoản"
       find_me_in: "Tìm tôi tại app/views/sessions/create.html.erb"
@@ -58,6 +61,16 @@ vi:
       sign_up_title: "Đăng ký"
       sign_up: "Đăng ký"
       create_my_account: "Tạo tài khoản"
+    edit:
+      edit_user_title: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật thông tin của bạn"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      are_you_sure: "Bạn có chắc là xóa người dùng này?"
+      delete: "Xóa"
 
   activerecord:
     models:
@@ -72,3 +85,10 @@ vi:
       session: "Session"
       attributes:
         email: "Thư điện tử"
+
+  views:
+    pagination:
+      first: "« ĐẦU TIÊN"
+      last: "CUỐI CÙNG »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
