@@ -2,6 +2,10 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app: "Welcom to the Sample app."
   the_form_contains: "The Form Contains %{count} error(s)."
+  profile_updated: "Profile updated"
+  please_log_in: "Please log in."
+  user_deleted: "User deleted"
+  delete_fail: "Deleted fail!"
   pages:
     application:
       english: "English"
@@ -48,6 +52,15 @@ en:
       sign_up_title: "Sign up"
       sign_up: "Sign up"
       create_my_account: "Create My Account"
+    edit:
+      edit_user_title: "Edit User"
+      update_your_profile: "Update Your Profile"
+      save_change: "Save changes"
+      change: "Change"
+    index:
+      all_users: "All Users"
+    user:
+      are_you_sure: "Are you sure?"
 
   activerecord:
     models:

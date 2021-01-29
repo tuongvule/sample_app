@@ -2,6 +2,10 @@ vi:
   base_title: "Ứng dụng mẫu Hướng dẫn Ruby trên Rails."
   welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu."
   the_form_contains: "Mẫu đăng kí có %{count} lỗi."
+  profile_updated: "Thông tin của bạn đã được cập nhật."
+  please_log_in: "Vui lòng đăng nhập."
+  user_deleted: "Người dùng đã bị xóa"
+  delete_fail: "Hoạt động xóa thất bại!"
   pages:
     application:
       english: "Tiếng Anh"
@@ -47,6 +51,15 @@ vi:
       sign_up_title: "Đăng ký"
       sign_up: "Đăng ký"
       create_my_account: "Tạo tài khoản"
+    edit:
+      edit_user_title: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật thông tin của bạn"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      are_you_sure: "Bạn có chắc là xóa người dùng này?"
 
   activerecord:
     models:

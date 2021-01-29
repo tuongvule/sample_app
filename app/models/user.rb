@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
   validates :name, presence: true
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true,
   uniqueness: true,
@@ -40,5 +41,14 @@ class User < ApplicationRecord
   # Forgets a user.
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  # Before filters
+  # Confirms a logged-in user.
+  def logged_in_user
+    return if logged_in?
+
+    flash[:danger] = t ".please_login_in"
+    redirect_to login_url
   end
 end
