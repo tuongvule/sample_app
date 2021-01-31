@@ -10,6 +10,22 @@ vi:
   delete_fail: "Hoạt động xóa thất bại!"
   update_failed_please_re_enter: "Cập nhật thất bại, vui lòng nhập lại!"
   new_creation_failed_please_re_enter: "Tạo mới thất bại, vui lòng nhập lại!"
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Đường dẫn kích hoạt không đúng!"
+  account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn
+   để biết đường dẫn kích hoạt."
+  please_check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
+  sample_app: "Ứng dụng mẫu"
+  activate: "Kích hoạt"
+  click_link_to_active: "Chào mừng đến với Ứng dụng mẫu. Kích vào đường dẫn bên dưới để kích hoạt tài khoản của bạn."
+  hi: "Chào "
+  user_mailer:
+    sample_app: "Ứng dụng mẫu"
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+
   pages:
     application:
       english: "English"

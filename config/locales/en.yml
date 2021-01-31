@@ -7,12 +7,30 @@ en:
   please_log_in: "Please log in."
   user_deleted: "User deleted"
   delete_fail: "Deleted fail!"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link!"
+  account_not_activated: "Account not activated. Check your email for
+   the activation link."
+  please_check_email: "Please check your email to activate your account!"
   update_failed_please_re_enter: "Update failed, please re-enter!"
   new_creation_failed_please_re_enter: "New creation failed, please re-enter!"
+  sample_app: "Sample app"
+  activate: "Active"
+  click_link_to_active: "Welcome to the Sample App! Click on the link below to activate your account:"
+  hi: "Hi "
+
+  user_mailer:
+    sample_app: "Sample app"
+    account_activation:
+      subject: "Account activation"
+    password_reset:
+      subject: "Password reset"
+
   pages:
     application:
       english: "English"
       vietnamese: "Tiếng Việt"
+
     header:
       home: "Home"
       help: "Help"
