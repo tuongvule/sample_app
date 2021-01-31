@@ -1,6 +1,6 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
 <div class="container">
-  <%= link_to t("pages.header.sample_app"), "#", id: "logo" %>
+  <%= link_to t("pages.header.sample_app"), root_url, id: "logo" %>
 
   <nav>
     <ul class="nav navbar-nav navbar-right">
@@ -8,8 +8,8 @@
       <li><%= link_to t("pages.application.vietnamese"), locale:"vi" %></li>
       <li><%= link_to t("pages.header.home"), root_path %></li>
       <li><%= link_to t("pages.header.help"), static_pages_help_path %></li>
+      <li><%= link_to "Users", users_path %></li>
       <% if logged_in? %>
-        <li><%= link_to "Users", users_path %></li>
         <li><%= link_to current_user.name%></li>
         <li><%= link_to t("pages.header.profile"), current_user %></li>
         <li><%= link_to t("pages.header.settings"), edit_user_path(current_user) %></li>

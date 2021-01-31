@@ -6,6 +6,11 @@ en:
   please_log_in: "Please log in."
   user_deleted: "User deleted"
   delete_fail: "Deleted fail!"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link!"
+  account_not_activated: "Account not activated. Check your email for
+   the activation link."
+  please_check_email: "Please check your email to activate your account!"
   pages:
     application:
       english: "English"
@@ -61,6 +66,10 @@ en:
       all_users: "All Users"
     user:
       are_you_sure: "Are you sure?"
+
+  user_mailer:
+    account_activation:
+      sample_app: "Sample app"
 
   activerecord:
     models:

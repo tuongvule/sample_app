@@ -31,6 +31,10 @@ gem "will_paginate", "3.1.8"
 
 gem "bootstrap-will_paginate", "1.0.0"
 
+gem "dotenv-rails"
+
+gem "figaro"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "rubocop", "~> 0.74.0", require: false

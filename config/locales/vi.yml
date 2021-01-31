@@ -6,6 +6,11 @@ vi:
   please_log_in: "Vui lòng đăng nhập."
   user_deleted: "Người dùng đã bị xóa"
   delete_fail: "Hoạt động xóa thất bại!"
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Đường dẫn kích hoạt không đúng!"
+  account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn
+   để biết đường dẫn kích hoạt."
+  please_check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
   pages:
     application:
       english: "Tiếng Anh"
@@ -57,7 +62,7 @@ vi:
       save_change: "Lưu thay đổi"
       change: "Thay đổi"
     index:
-      all_users: "Tất cả người dùng"
+      all_users: "Tất cả Người Dùng"
     user:
       are_you_sure: "Bạn có chắc là xóa người dùng này?"
 
