@@ -61,6 +61,7 @@ GEM
     ast (2.4.1)
     autoprefixer-rails (10.2.0.0)
       execjs
+    bcrypt (3.1.11)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
@@ -226,9 +227,19 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  bootstrap-unknown
+  rails-unknown
+  rubocop-unknown
   ruby
+  sass-unknown
+  selenium-unknown
+  spring-unknown
+  tzinfo-unknown
+  unknown
+  web-unknown
 
 DEPENDENCIES
+  bcrypt (= 3.1.11)
   bootsnap (>= 1.4.2)
   bootstrap-sass (~> 3.4.1)
   byebug

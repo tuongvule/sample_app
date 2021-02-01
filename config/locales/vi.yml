@@ -1,5 +1,6 @@
 vi:
   base_title: "Ứng dụng mẫu Hướng dẫn Ruby trên Rails."
+  error_find_user: "Không tìm thấy user."
   pages:
     application:
       english: "Tiếng Anh"

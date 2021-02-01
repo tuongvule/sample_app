@@ -1,5 +1,6 @@
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  error_find_user: "Not found user."
   pages:
     application:
       english: "English"
