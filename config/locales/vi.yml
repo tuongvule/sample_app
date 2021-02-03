@@ -11,6 +11,11 @@ vi:
   account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn
    để biết đường dẫn kích hoạt."
   please_check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
+  reset_instruct: "Email đã gửi đính kèm hướng dẫn đặt lại password"
+  not_found_email: "Không tìm thấy địa chỉ email"
+  password_reset_has_expired: "Đặt lại mật khẩu đã hết hạn."
+  please_input_password: "Vui lòng nhập mật khẩu của bạn!"
+  successfully_password_update: "Cập nhật mật khẩu thành công."
   pages:
     application:
       english: "Tiếng Anh"
@@ -39,6 +44,15 @@ vi:
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
 
+  password_resets:
+    new:
+      forgot_password_title: "Quên mật khẩu"
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+
   sessions:
     new:
       login_title: "Đăng nhập"
@@ -50,6 +64,7 @@ vi:
       password: "Mật khẩu"
       invalid_email_password_combination: "Thư điện tử hoặc mật khẩu bị sai."
       remember_me: "Ghi nhớ đăng nhập."
+      forgot_password: "Quên mật khẩu"
 
   users:
     new:

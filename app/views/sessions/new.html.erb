@@ -3,17 +3,18 @@
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for :session, url: login_path do |f| %>
-      <p style="font-weight: bold"><%= t(".email")%></p>
-      <%= f.email_field :email, class: "form-control" %>
-      <p style="font-weight: bold"><%= t(".password")%></p>
-      <%= f.password_field :password, class: "form-control" %>
-      <%= f.label :remember_me, class: "checkbox inline" do %>
-      <%= f.check_box :remember_me %>
-      <span><%= t(".remember_me")%></span>
-      <% end %>
-      <%= f.submit t(".login"), class: "btn btn-primary" %>
+    <p style="font-weight: bold"><%= t(".email")%></p>
+    <%= f.email_field :email, class: "form-control" %>
+    <p style="font-weight: bold"><%= t(".password")%></p>
+    <%= link_to t(".forgot_password"), new_password_reset_path %>
+    <%= f.password_field :password, class: "form-control" %>
+    <%= f.label :remember_me, class: "checkbox inline" do %>
+    <%= f.check_box :remember_me %>
+    <span><%= t(".remember_me")%></span>
+    <% end %>
+    <%= f.submit t(".login"), class: "btn btn-primary" %>
     <% end %>
     <p><en><%= t (".new_user") %></en> <en><%= link_to t(".sign_up_now"),
-                                       signup_path %></en></p>
+    signup_path %></en></p>
   </div>
 </div>

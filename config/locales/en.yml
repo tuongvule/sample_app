@@ -11,6 +11,11 @@ en:
   account_not_activated: "Account not activated. Check your email for
    the activation link."
   please_check_email: "Please check your email to activate your account!"
+  reset_instruct: "Email sent with password reset instructions"
+  not_found_email: "Email address not found"
+  password_reset_has_expired: "Password reset has expired"
+  please_input_password: "Please input your password!"
+  successfully_password_update: "Successfully password update."
   pages:
     application:
       english: "English"
@@ -39,6 +44,15 @@ en:
       link_path1: "http://www.railstutorial.org/help"
       link_path2: "http://www.railstutorial.org/book"
 
+  password_resets:
+    new:
+      forgot_password_title: "Forgot password"
+      forgot_password: "Forgot password"
+      submit: Submit
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
+
   sessions:
     new:
       login_title: "Log in"
@@ -50,6 +64,7 @@ en:
       password: "Password"
       invalid_email_password_combination: "Invalid Email Or Password."
       remember_me: "Remember me on this computer"
+      forgot_password: "Forgot password"
 
 
   users:
