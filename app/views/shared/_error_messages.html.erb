@@ -3,10 +3,11 @@
     <div class="alert alert-danger">
       <%= t("the_form_contains", count: @user.errors.count)%>
     </div>
+
     <ul>
       <% @user.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
+        <li><%= msg %></li>
       <% end %>
     </ul>
-    </div>
+  </div>
 <% end %>
