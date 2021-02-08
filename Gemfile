@@ -7,6 +7,8 @@ gem "bcrypt", "3.1.11"
 
 gem "bootstrap-sass", "~>3.4.1"
 
+gem "config"
+
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 
 gem "sqlite3", "~> 1.4"

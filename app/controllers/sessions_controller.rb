@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  before_action :load_user, only: create
+  before_action :load_user, only: :create
 
   def new; end
 

@@ -16,6 +16,8 @@ config/database.yml
 .idea/*
 config/application.yml
 db/development.sqlite3
+db/test.sqlite3
+log/development.log
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -71,3 +73,7 @@ build-iPhoneSimulator/
 !/tmp/.keep
 # Ignore precompiled javascript packs
 /public/packs
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml

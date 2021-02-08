@@ -1,0 +1,3 @@
+users:
+  email:
+    max_length: 255

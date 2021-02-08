@@ -5,6 +5,7 @@
   --white_color: #fff;
   --shade_of_gray:#bbb
 }
+
 body {
   padding-top: 60px;
 }
@@ -104,4 +105,18 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+#session_remember_me {
+  margin-left: 0;
+  width: auto;
 }
