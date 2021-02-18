@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
-  before_action :load_user, only: :show
+  before_action :logged_in_user, except: %i(show new create)
+  before_action :load_user, except: %i(index new create)
+  before_action :correct_user, only: %i(edit update)
 
   def show; end
 
@@ -8,17 +10,56 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
       log_in @user
       flash[:success] = t "welcome_to_the_sample_app"
       redirect_to @user
     else
+      flash.now[:warning] = t "new_creation_failed_please_re_enter"
       render :new
     end
   end
 
+  def edit; end
+
+  def update
+    if @user.update user_params
+      flash[:success] = t "profile_updated"
+      redirect_to @user
+    else
+      flash.now[:warning] = t "update_failed_please_re_enter"
+      render :edit
+    end
+  end
+
+  def logged_in_user
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t "please_log_in"
+    redirect_to login_url
+  end
+
+  def index
+    @users = User.order_by_name.page params[:page]
+  end
+
+  def destroy
+    if @user.destroy
+      flash[:success] = t "user_deleted"
+    else
+      flash[:danger] = t "delete_fail"
+    end
+    redirect_to users_url
+  end
+
   private
+
+  # Confirms the correct user.
+  def correct_user
+    redirect_to(root_url) unless current_user?(@user)
+  end
 
   def user_params
     params.require(:user)

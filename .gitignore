@@ -73,7 +73,6 @@ build-iPhoneSimulator/
 !/tmp/.keep
 # Ignore precompiled javascript packs
 /public/packs
-
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
