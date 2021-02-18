@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
+
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.paginate(page: params[:page])
     flash[:success] = t "welcome_to_the_sample_app"
   end
 
@@ -33,14 +35,6 @@ class UsersController < ApplicationController
     else
       render "edit"
     end
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_log_in"
-    redirect_to login_url
   end
 
   def index

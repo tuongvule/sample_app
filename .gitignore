@@ -16,6 +16,8 @@ config/database.yml
 db/development.sqlite3
 .idea/*
 config/application.yml
+# Ignore uploaded test images.
+/storage
 
 # Used by dotenv library to load environment variables.
 # .env
