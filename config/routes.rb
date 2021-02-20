@@ -6,6 +6,12 @@ Rails.application.routes.draw do
     resources :users
     resources :account_activations, only: :edit
     resources :password_resets, only: [:new, :create, :edit, :update]
+    resources :users do
+      member do
+      get :following, :followers
+    end
+    end
+    resources :relationships, only: %i(create destroy)
 
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
