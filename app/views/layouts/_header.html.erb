@@ -1,7 +1,6 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
 <div class="container">
-  <%= link_to t("pages.header.sample_app"), "#", id: "logo" %>
-
+  <%= link_to t("pages.header.sample_app"), root_url, id: "logo" %>
   <nav>
     <ul class="nav navbar-nav navbar-right">
       <li><%= link_to t("pages.application.english"), locale: :en %></li>

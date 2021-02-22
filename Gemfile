@@ -33,6 +33,10 @@ gem "bootstrap-kaminari-views"
 
 gem "kaminari-i18n", "~> 0.5.0"
 
+gem "dotenv-rails"
+
+gem "figaro"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "faker", "2.1.2"
